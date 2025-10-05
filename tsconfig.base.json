@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@senior-setup-workspace-angular/core": ["libs/core/src/index.ts"],
+      "@senior-setup-workspace-angular/keycloak": [
+        "libs/keycloak/src/index.ts"
+      ],
+      "@senior-setup-workspace-angular/libs": ["libs/src/index.ts"],
+      "@senior-setup-workspace-angular/products": ["libs/products/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

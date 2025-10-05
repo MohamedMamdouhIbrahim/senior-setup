@@ -26,7 +26,7 @@ services:
       KC_HOSTNAME_STRICT: false
       KC_HTTP_ENABLED: true
       KEYCLOAK_ADMIN: admin
-      KEYCLOAK_ADMIN_PASSWORD: admin_password
+      KEYCLOAK_ADMIN_PASSWORD: 123
     ports:
       - "8080:8080"
     depends_on:

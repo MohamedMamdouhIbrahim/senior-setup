@@ -1,2 +1,7 @@
-<app-button/>
+<ul>
+  @for (product of products$ | async; track $index) {
+  <li>{{product.name}}</li>
+
+  }
+</ul>
 <router-outlet></router-outlet>
