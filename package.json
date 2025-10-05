@@ -5,7 +5,7 @@
   "scripts": {
     "prepare": "husky"
   },
-    "lint-staged": {
+  "lint-staged": {
     "*.{js,ts,tsx,jsx}": [
       "eslint --fix",
       "prettier --write"
