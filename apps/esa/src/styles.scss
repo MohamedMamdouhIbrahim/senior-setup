@@ -8,7 +8,6 @@ html {
       density: 0,
     )
   );
-  // to know the name of the token we just inspect the element in the browser and remove any prefix
   @include mat.theme-overrides(
     (
       surface: #ffffff,
